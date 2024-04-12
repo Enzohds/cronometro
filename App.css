@@ -1,0 +1,42 @@
+button{
+    border: none;
+    background-color: transparent;
+}
+
+.start{
+    width: 46px;
+}
+
+.pause{
+    width: 44px;
+}
+
+.restart{
+    width: 43px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cronometro-container{
+    background-color: lightblue;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5%;
+    box-shadow: 2px 2px 25px 1px rgba(0, 0, 0, 0.3);
+}
+
+h1, .tempo{
+    margin-top: -5px;
+    color: aliceblue;
+    text-shadow: 0 0 0.5px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
